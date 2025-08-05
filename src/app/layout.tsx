@@ -5,7 +5,7 @@ import Footer from "./Components/Customs/Footer";
 import Header from "./Components/Customs/Header";
 import { ReactNode } from "react";
 import Head from "next/head";
-
+// import Script from 'next/script';
 // Fonts
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -69,16 +69,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           sizes="180x180"
           href="zureinsurance/true-logo.jpg"
         />
-        <link
+        {/* <link
           rel="stylesheet"
           href="/assets/index-D2lAX6l4.css"
           crossOrigin=""
-        />
-        <script
-          type="module"
-          src="/assets/index-C6VCEvjn.js"
-          crossOrigin=""
-        />
+        /> */}
+       {/* <Script src="/some-library.js" strategy="lazyOnload" /> */}
       </Head>
 
       <body

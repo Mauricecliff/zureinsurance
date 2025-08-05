@@ -25,7 +25,7 @@ function GetInTouch() {
               <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/70 to-transparent"></div>
               <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6 text-white">
                 <h3 className="text-lg sm:text-xl font-semibold mb-2">
-                  We're Here to Help
+                  We&apos;re here to help
                 </h3>
                 <p className="text-emerald-100 text-sm sm:text-base">
                   True protection with deep-rooted personal service

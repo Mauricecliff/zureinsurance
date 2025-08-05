@@ -37,9 +37,9 @@ function StrongRoots() {
               integrity, and true protection.
             </p>
             <p className="text-base lg:text-lg text-gray-600 mb-8 leading-relaxed">
-              Like the mighty oak tree that symbolizes our name, we've grown
+              Like the mighty oak tree that symbolizes our name, we&apos;ve grown
               strong through decades of service while staying deeply rooted in
-              the values that matter most—protecting what you've worked so hard
+              the values that matter most—protecting what you&apos;ve worked so hard
               to build.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-8">
