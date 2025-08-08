@@ -8,18 +8,11 @@ function Header() {
   const [openNav, setOpenNav] = useState(false);
   const toggleNav = () => setOpenNav(!openNav);
 
-  const pathName = usePathname()
-
-  console.log('current path>>>', pathName)
-
-
-
-
-  // console.log('check nav state>>>', openNav)
+  const pathName = usePathname();
 
   return (
     <header className="sticky top-0 z-40 transition-all duration-300 bg-white shadow-lg">
-      <div className="bg-emerald-900 text-white py-2">
+      <div className="bg-amber-600 text-white py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center text-xs sm:text-sm">
             <div className="flex items-center space-x-3 sm:space-x-6">
@@ -39,10 +32,10 @@ function Header() {
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                 </svg>
                 <a
-                  href="tel:8702814894"
-                  className="hover:text-amber-400 transition-colors duration-200"
+                  href="tel:7026867820"
+                  className="hover:text-emerald-400 transition-colors duration-200"
                 >
-                  (870) 281-4894
+                  (702) 686-7820
                 </a>
               </div>
               <div className="hidden sm:flex items-center space-x-2">
@@ -63,22 +56,22 @@ function Header() {
                 </svg>
                 <a
                   href="mailto:info@trueoakinsurance.com"
-                  className="hover:text-amber-400 transition-colors duration-200"
+                  className="hover:text-emerald-400 transition-colors duration-200"
                 >
-                  info@trueoakinsurance.com
+                  info@zureinsurance.com
                 </a>
               </div>
             </div>
             <div className="hidden md:block">
-              <span>
+              {/* <span>
                 Licensed in All 50 States | Claims:
                 <a
                   href="tel:4069986267"
-                  className="ml-1 hover:text-amber-400 transition-colors duration-200"
+                  className="ml-1 hover:text-emerald-400 transition-colors duration-200"
                 >
                   (406) 998-6267
                 </a>
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
@@ -89,53 +82,52 @@ function Header() {
             onClick={toggleNav}
             className="flex items-center space-x-3 sm:space-x-4 cursor-pointer group"
           >
+            <Link href="/" className="flex items-center space-x-2">
             <img
-              src="zureinsurance/true-logo.jpg"
+              src="zureinsurance/zure-logo.png"
               alt="TrueOak Insurance Logo"
               className="h-10 w-10 sm:h-12 sm:w-12 object-contain group-hover:scale-105 transition-transform duration-200"
             />
             <div>
-              <h1 className="text-xl sm:text-2xl font-bold text-emerald-900 group-hover:text-emerald-800 transition-colors duration-200">
+              <h1 className="text-xl sm:text-2xl font-bold text-amber-600 group-hover:text-amber-600 transition-colors duration-200">
                 Zure
               </h1>
               <p className="text-xs sm:text-sm text-gray-600 -mt-1">
                 Insurance
               </p>
             </div>
+            </Link>
           </button>
           <div className="hidden lg:flex items-center space-x-6">
-            <button className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 text-gray-700 hover:text-emerald-900 hover:bg-emerald-50 hover:scale-105  ${pathName === '/' ? 'bg-emerald-900 text-white ' : 'shadow-none'}  shadow-lg cursor-pointer`}>
-             <Link href="/">
-                  Home
-             </Link>
-            </button>
-            <button className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 text-gray-700 hover:text-emerald-900 hover:bg-emerald-50 hover:scale-105  ${pathName === '/service' ? 'bg-emerald-900 text-white ' : 'shadow-none'}  shadow-lg cursor-pointer`}>
-              <Link href="/service">
-                    Our Services
-              </Link>
-            </button>
-            <button className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 text-gray-700 hover:text-emerald-900 hover:bg-emerald-50 hover:scale-105  ${pathName === '/about' ? 'bg-emerald-900 text-white ' : 'shadow-none'}  shadow-lg cursor-pointer`}>
-             <Link href="/about">
-                About Us
-             </Link>
-            </button>
-            <button className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 text-gray-700 hover:text-emerald-900 hover:bg-emerald-50 hover:scale-105  ${pathName === '/contact' ? 'bg-emerald-900 text-white ' : 'shadow-none'}  shadow-lg cursor-pointer`}>
+            {[
+              { label: "Home", href: "/" },
+              { label: "Our Services", href: "/service" },
+              { label: "About Us", href: "/about" },
+              { label: "Contact Us", href: "/contact" },
+              { label: "Careers", href: "/careers" },
+            ].map(({ label, href }) => (
+              <button
+                key={href}
+                className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 text-gray-700 hover:text-amber-600 hover:bg-amber-50 hover:scale-105 ${
+                  pathName === href
+                    ? "bg-amber-600 text-white"
+                    : "shadow-none"
+                } shadow-lg cursor-pointer`}
+              >
+                <Link href={href}>{label}</Link>
+              </button>
+            ))}
+            <button className="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-2 rounded-lg font-medium transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl cursor-pointer">
               <Link href="/contact">
-                 Contact Us
-              </Link>
-             
-            </button>
-            <button className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 text-gray-700 hover:text-emerald-900 hover:bg-emerald-50 hover:scale-105  ${pathName === '/careers' ? 'bg-emerald-900 text-white ' : 'shadow-none'}  shadow-lg cursor-pointer`}>
-              <Link href="/careers">
-                    Careers
-              </Link>
-            </button>
-            <button className="bg-amber-600 hover:bg-amber-700 text-white px-6 py-2 rounded-lg font-medium transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl cursor-pointer">
               Get Quote
+              </Link>
             </button>
           </div>
           <div className="lg:hidden">
-            <button onClick={toggleNav} className="text-gray-700 hover:text-emerald-900 p-2 rounded-lg hover:bg-emerald-50 transition-colors duration-200">
+            <button
+              onClick={toggleNav}
+              className="text-gray-700 hover:text-amber-600 p-2 rounded-lg hover:bg-amber-50 transition-colors duration-200"
+            >
               {openNav ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -176,24 +168,29 @@ function Header() {
         {openNav && (
           <div className="lg:hidden py-4 border-t border-gray-200 bg-white/95 backdrop-blur-sm">
             <div className="flex flex-col space-y-2">
-              <button className="px-4 py-3 rounded-lg font-medium text-left transition-all duration-200 text-gray-700 hover:text-emerald-900 hover:bg-emerald-50">
-                Home
+              {[ { label: "Home", href: "/" },
+              { label: "Our Services", href: "/service" },
+              { label: "About Us", href: "/about" },
+              { label: "Contact Us", href: "/contact" },
+              { label: "Careers", href: "/careers" }].map(
+                ({label, href }, index) => (
+                  <button
+                    key={index}
+                    className="px-4 py-3 rounded-lg font-medium text-left transition-all duration-200 text-gray-700 hover:text-amber-600 hover:bg-amber-50"
+                  >
+                    <Link href={href}>{label}</Link>
+                  </button>
+                )
+              )}
+              <button className="px-4 py-3 rounded-lg font-medium text-left transition-all duration-200 bg-amber-600 text-white">
+                 <Link href="/">Careers</Link>
               </button>
-              <button className="px-4 py-3 rounded-lg font-medium text-left transition-all duration-200 text-gray-700 hover:text-emerald-900 hover:bg-emerald-50">
-                Our Services
-              </button>
-              <button className="px-4 py-3 rounded-lg font-medium text-left transition-all duration-200 text-gray-700 hover:text-emerald-900 hover:bg-emerald-50">
-                About Us
-              </button>
-              <button className="px-4 py-3 rounded-lg font-medium text-left transition-all duration-200 text-gray-700 hover:text-emerald-900 hover:bg-emerald-50">
-                Contact Us
-              </button>
-              <button className="px-4 py-3 rounded-lg font-medium text-left transition-all duration-200 bg-emerald-900 text-white">
-                Careers
-              </button>
-              <button className="bg-amber-600 hover:bg-amber-700 text-white px-4 py-3 rounded-lg font-medium transition-colors duration-200 mt-4">
-                Get Quote
-              </button>
+                 
+                  <button className="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-3 rounded-lg font-medium transition-colors duration-200 mt-4">
+                    <Link href="/contact" >
+                        Get Quote
+                     </Link>
+                  </button>
             </div>
           </div>
         )}

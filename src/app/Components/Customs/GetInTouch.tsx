@@ -22,19 +22,19 @@ function GetInTouch() {
                 alt="Customer service representative"
                 className="w-full h-48 sm:h-64 object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/70 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-amber-600/70 to-transparent"></div>
               <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6 text-white">
                 <h3 className="text-lg sm:text-xl font-semibold mb-2">
                   We&apos;re here to help
                 </h3>
-                <p className="text-emerald-100 text-sm sm:text-base">
+                <p className="text-amber-100 text-sm sm:text-base">
                   True protection with deep-rooted personal service
                 </p>
               </div>
             </div>
             <div className="space-y-6">
               <div className="flex items-start">
-                <div className="bg-emerald-900 p-2 sm:p-3 rounded-lg mr-3 sm:mr-4 flex-shrink-0">
+                <div className="bg-amber-600 p-2 sm:p-3 rounded-lg mr-3 sm:mr-4 flex-shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -56,25 +56,25 @@ function GetInTouch() {
                   </h4>
                   <p className="text-gray-600 text-sm sm:text-base">
                     <a
-                      href="tel:8702814894"
-                      className="hover:text-emerald-900 transition-colors duration-200"
+                      href="tel:702686-7820"
+                      className="hover:text-amber-600 transition-colors duration-200"
                     >
-                      (870) 281-4894
+                      (702) 686-7820
                     </a>
                   </p>
-                  <p className="text-xs sm:text-sm text-gray-500">
+                  {/* <p className="text-xs sm:text-sm text-gray-500">
                     24/7 Claims Hotline:
                     <a
                       href="tel:4069986267"
-                      className="ml-1 hover:text-emerald-900 transition-colors duration-200"
+                      className="ml-1 hover:text-amber-600 transition-colors duration-200"
                     >
                       (406) 998-6267
                     </a>
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className="flex items-start">
-                <div className="bg-emerald-900 p-2 sm:p-3 rounded-lg mr-3 sm:mr-4 flex-shrink-0">
+                <div className="bg-amber-600 p-2 sm:p-3 rounded-lg mr-3 sm:mr-4 flex-shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -98,23 +98,23 @@ function GetInTouch() {
                   <p className="text-gray-600 text-sm sm:text-base">
                     <a
                       href="mailto:info@trueoakinsurance.com"
-                      className="hover:text-emerald-900 transition-colors duration-200"
+                      className="hover:text-amber-600 transition-colors duration-200"
                     >
-                      info@trueoakinsurance.com
+                      info@zureinsurance.com
                     </a>
                   </p>
-                  <p className="text-xs sm:text-sm text-gray-500">
+                  {/* <p className="text-xs sm:text-sm text-gray-500">
                     <a
                       href="mailto:claims@trueoakinsurance.com"
-                      className="hover:text-emerald-900 transition-colors duration-200"
+                      className="hover:text-amber-600 transition-colors duration-200"
                     >
-                      claims@trueoakinsurance.com
+                      claims@zureinsurance.com
                     </a>
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className="flex items-start">
-                <div className="bg-emerald-900 p-2 sm:p-3 rounded-lg mr-3 sm:mr-4 flex-shrink-0">
+                <div className="bg-amber-600 p-2 sm:p-3 rounded-lg mr-3 sm:mr-4 flex-shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -136,14 +136,16 @@ function GetInTouch() {
                     Office
                   </h4>
                   <p className="text-gray-600 text-sm sm:text-base">
-                    3734 Crescent Lake Rd
+                    Patrick V. McNamara Federal Building
                     <br />
-                    Billings, MT 59101
+                    477 Michigan Avenue
+                    <br />
+                    Detroit, MI 48226-2523
                   </p>
                 </div>
               </div>
             </div>
-            <div className="mt-8 bg-emerald-50 p-4 sm:p-6 rounded-xl">
+            <div className="mt-8 bg-amber-50 p-4 sm:p-6 rounded-xl">
               <h4 className="font-semibold text-gray-900 mb-4 text-sm sm:text-base">
                 Business Hours
               </h4>
@@ -180,10 +182,8 @@ function GetInTouch() {
                     type="text"
                     id="name"
                     name="name"
-                    // required=""
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-colors duration-200"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-colors duration-200"
                     placeholder="Your full name"
-                    // value=""
                   />
                 </div>
                 <div>
@@ -197,9 +197,8 @@ function GetInTouch() {
                     type="tel"
                     id="phone"
                     name="phone"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-colors duration-200"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-colors duration-200"
                     placeholder="Your phone number"
-                    // value=""
                   />
                 </div>
               </div>
@@ -214,10 +213,8 @@ function GetInTouch() {
                   type="email"
                   id="email"
                   name="email"
-                //   required=""
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-colors duration-200"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-colors duration-200"
                   placeholder="your.email@example.com"
-                //   value=""
                 />
               </div>
               <div>
@@ -230,15 +227,14 @@ function GetInTouch() {
                 <textarea
                   id="message"
                   name="message"
-                //   required=""
                   rows={5}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-colors duration-200 resize-none"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-colors duration-200 resize-none"
                   placeholder="Tell us how we can provide true protection for you..."
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="w-full bg-emerald-900 hover:bg-emerald-800 disabled:bg-gray-400 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-200 hover:scale-105 flex items-center justify-center shadow-lg hover:shadow-xl"
+                className="w-full bg-amber-600 hover:bg-amber-500 disabled:bg-gray-400 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-200 hover:scale-105 flex items-center justify-center shadow-lg hover:shadow-xl"
               >
                 Send Message
                 <svg
@@ -263,7 +259,7 @@ function GetInTouch() {
                 Need immediate assistance or want to explore all our contact
                 options?
               </p>
-              <button className="text-emerald-900 hover:text-amber-600 font-medium transition-colors duration-200">
+              <button className="text-amber-600 hover:text-amber-800 font-medium transition-colors duration-200">
                 Visit Our Contact Page →
               </button>
             </div>

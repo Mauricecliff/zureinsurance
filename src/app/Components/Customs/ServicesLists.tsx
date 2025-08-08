@@ -1,27 +1,10 @@
+"use client";
+
 import Link from "next/link";
 
-function OurInsurance() {
 
-    return (
-        <section className="py-16 lg:py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12 lg:mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Our Insurance Services</h2>
-            <p className="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
-                <b>Comprehensive Protection Rooted in Trust </b><br />
 
-                At ZureInsurance, we offer more than just policies — we deliver peace of mind. Our insurance solutions are thoughtfully designed to protect the people, businesses, and dreams you care about most. With us, you’re not just insured — you’re truly covered.
-            </p>
-            <p className="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto mt-3.5">
-               <b>Complete Protection Solutions </b><br />
-
-                Whether you’re safeguarding your home, vehicle, health, or business, our offerings are grounded in transparency, built on trust, and tailored to your needs. Explore our range of reliable, easy-to-understand insurance products — all created to give you confidence in every decision and security at every stage.
-            </p>
-            </div>
-
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            {/* === Reusable Card Start === */}
-            {[
+const protectionPlans = [
                 {
                 title: "Home Insurance",
                 image: "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
@@ -179,53 +162,118 @@ function OurInsurance() {
                 CTA: 'Compare Plans Now'
                 },
                 // Add more entries below for Life Insurance, Commercial, Group Benefits
-            ].map((service, i) => (
-                <div
-                key={i}
-                className="bg-gray-50 rounded-xl overflow-hidden hover:bg-white hover:shadow-xl transition-all duration-300 border border-gray-100 group cursor-pointer"
-                >
-                <div className="relative h-40 sm:h-48 overflow-hidden">
-                    <img
-                    src={service.image}
-                    alt={service.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                    <div className="absolute top-4 left-4">
-                    <div className="bg-emerald-900 p-2 sm:p-3 rounded-lg group-hover:bg-amber-600 transition-colors duration-300">
-                        {service.icon}
-                    </div>
-                    </div>
-                </div>
-                <div className="p-4 sm:p-6">
-                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">{service.title}</h3>
-                    <p className="text-gray-600 mb-4 leading-relaxed text-sm sm:text-base">{service.desc}</p>
-                    <ul className="space-y-2 mb-6">
-                    {service.list.map((item, idx) => (
-                        <li key={idx} className="flex items-center text-xs sm:text-sm text-gray-600">
-                        <div className="w-2 h-2 bg-amber-600 rounded-full mr-3 flex-shrink-0" />
-                        {item}
-                        </li>
-                    ))}
-                    </ul>
-                    <button className="text-emerald-900 font-medium hover:text-amber-600 transition-colors duration-200 text-sm sm:text-base">
-                        {service.CTA} →
-                    </button>
-                </div>
-                </div>
-            ))}
-            {/* === Reusable Card End === */}
-            </div>
+            ]
 
-            <div className="text-center mt-12">
-            <button className="bg-emerald-900 hover:bg-emerald-800 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl cursor-pointer">
-                <Link href="/services" >
-                    Discover All Services
-                </Link>
-            </button>
+export default function ServicesLists() {
+  return (
+    <section className="py-16 lg:py-20 bg-white">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-12 lg:mb-16">
+      <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+        Our Insurance Services
+      </h2>
+      <p className="text-lg lg:text-xl text-gray-600">
+        Discover tailored coverage options for your peace of mind.
+      </p>
+    </div>
+
+    <div className="grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+      {protectionPlans.map((plan, index) => (
+        <div
+          key={index}
+          className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:scale-105 cursor-pointer"
+        >
+          <div className="relative h-48 sm:h-64">
+            <img
+              src={plan.image}
+              alt={plan.title}
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+            <div className="absolute top-4 sm:top-6 left-4 sm:left-6">
+              <div className="bg-amber-600 p-3 sm:p-4 rounded-xl">
+                {plan.icon}
+              </div>
             </div>
+            <div className="absolute bottom-4 sm:bottom-6 right-4 sm:right-6 bg-emerald-900 text-white px-3 sm:px-4 py-2 rounded-lg font-semibold text-sm sm:text-base">
+              Competitive rates
+            </div>
+          </div>
+          <div className="p-6 sm:p-8">
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">
+              {plan.title}
+            </h3>
+            <p className="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
+              {plan.desc}
+            </p>
+            <div className="mb-8">
+              <h4 className="text-base sm:text-lg font-semibold text-gray-900 mb-4">
+                What's Included:
+              </h4>
+              <ul className="space-y-3">
+                {plan.list.map((item, i) => (
+                  <li key={i} className="flex items-start">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-check-circle h-4 w-4 sm:h-5 sm:w-5 text-amber-600 mr-3 mt-0.5 flex-shrink-0"
+                      role="img"
+                      aria-label="Checkmark"
+                    >
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                      <path d="m9 11 3 3L22 4" />
+                    </svg>
+                    <span className="text-gray-600 text-sm sm:text-base">
+                      {item}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <button className="bg-amber-600 hover:bg-amber-500 text-white text-[12px] px-6 py-3 rounded-lg font-semibold transition-all duration-200 hover:scale-105 flex items-center justify-center flex-1 shadow-lg hover:shadow-xl text-sm cursor-pointer">
+                <Link href="/contact" className="flex gap-2 items-center">
+                {plan.CTA}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-arrow-right ml-2"
+                  role="img"
+                  aria-label="Arrow right"
+                >
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+                </Link>
+              </button>
+              <button className="border border-gray-300 hover:border-amber-600 text-gray-700 hover:text-amber-600 px-6 py-3 rounded-lg font-semibold transition-colors duration-200 text-sm cursor-pointer">
+                <Link href="/contact">
+                  Learn More
+                </Link>
+              </button>
+            </div>
+          </div>
         </div>
-        </section>
-    );
+      ))}
+    </div>
+  </div>
+</section>
+
+
+  );
 }
 
-export default OurInsurance;

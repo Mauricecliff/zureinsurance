@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Montserrat } from "next/font/google";
 import "./globals.css";
 import Footer from "./Components/Customs/Footer";
 import Header from "./Components/Customs/Header";
 import { ReactNode } from "react";
 import Head from "next/head";
-// import Script from 'next/script';
+
 // Fonts
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,9 +17,15 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"], // Adjust weights as needed
+});
+
 // ✅ Metadata-based SEO
 export const metadata: Metadata = {
-  title: "Zure Insurance - Strong Roots. True Protection.",
+  title: "Zure Insurance - Dependable Coverage.  Built on a foundation of honesty.",
   description:
     "TrueOak Insurance provides true protection with strong roots in Montana, serving families and businesses nationwide. Experience genuine insurance solutions built on trust and integrity.",
   themeColor: "#065F46",
@@ -45,41 +51,39 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "zureinsurance/true-logo.jpg", sizes: "16x16", type: "image/png" },
-      { url: "zureinsurance/true-logo.jpg", sizes: "32x32", type: "image/png" },
+      { url: "zureinsurance/zure-logo.jpg", sizes: "16x16", type: "image/png" },
+      { url: "zureinsurance/zure-logo.jpg", sizes: "32x32", type: "image/png" },
     ],
-    apple: "zureinsurance/true-logo.jpg",
+    apple: "zureinsurance/zure-logo.jpg",
   },
   manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable}`}>
       <Head>
         {/* This part is only needed for things not supported by `metadata` */}
         <meta charSet="UTF-8" />
         <link
           rel="icon"
           type="image/x-icon"
-          href="zureinsurance/true-logo.jpg"
+          href="zureinsurance/zure-logo.jpg"
         />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="zureinsurance/true-logo.jpg"
+          href="zureinsurance/zure-logo.jpg"
         />
         {/* <link
           rel="stylesheet"
           href="/assets/index-D2lAX6l4.css"
           crossOrigin=""
         /> */}
-       {/* <Script src="/some-library.js" strategy="lazyOnload" /> */}
+        {/* <Script src="/some-library.js" strategy="lazyOnload" /> */}
       </Head>
 
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className="antialiased">
         <Header />
         {children}
         <Footer />

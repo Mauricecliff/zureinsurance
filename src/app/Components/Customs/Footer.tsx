@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
@@ -8,12 +10,12 @@ function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-4 mb-6">
               <img
-                src="zureinsurance/true-logo.jpg"
-                alt="TrueOak Insurance Logo"
+                src="zureinsurance/zure-logo.png"
+                alt="Zure Insurance Logo"
                 className="h-10 w-10 object-contain"
               />
               <div>
-                <h3 className="text-xl font-bold">TrueOak</h3>
+                <h3 className="text-xl font-bold">Zure</h3>
                 <p className="text-sm text-gray-300 -mt-1">Insurance</p>
               </div>
             </div>
@@ -109,32 +111,32 @@ function Footer() {
             <ul className="space-y-3">
               <li>
                 <button className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Home Insurance
+                  <Link href="/service">Home Insurance</Link>
                 </button>
               </li>
               <li>
                 <button className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Auto Insurance
+                  <Link href="/service">Auto Insurance</Link>
                 </button>
               </li>
               <li>
                 <button className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Business Insurance
+                  <Link href="/service">Business Insurance</Link>
                 </button>
               </li>
               <li>
                 <button className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Life Insurance
+                  <Link href="/service"> Life Insurance</Link>
                 </button>
               </li>
               <li>
                 <button className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Commercial Insurance
+                  <Link href="/service">Commercial Insurance</Link>
                 </button>
               </li>
               <li>
                 <button className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Group Benefits
+                  <Link href="/service">Group Benefits</Link>
                 </button>
               </li>
             </ul>
@@ -144,35 +146,42 @@ function Footer() {
             <ul className="space-y-3">
               <li>
                 <button className="text-gray-300 hover:text-white transition-colors duration-200">
+                 <Link href="/about">
                   About Us
+                  </Link>
                 </button>
               </li>
               <li>
                 <button className="text-gray-300 hover:text-white transition-colors duration-200">
+                 <Link href="/careers">
                   Careers
+                  </Link>
                 </button>
               </li>
-              <li>
+              {/* <li>
                 <button className="text-gray-300 hover:text-white transition-colors duration-200">
+                  
                   News &amp; Press
                 </button>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <button className="text-gray-300 hover:text-white transition-colors duration-200">
                   Customer Reviews
                 </button>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a
                   href="#"
                   className="text-gray-300 hover:text-white transition-colors duration-200"
                 >
                   Claims Center
                 </a>
-              </li>
+              </li> */}
               <li>
                 <button className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Contact Us
+                  <Link href="/contact">
+                    Contact Us
+                    </Link>
                 </button>
               </li>
             </ul>
@@ -196,10 +205,10 @@ function Footer() {
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                 </svg>
                 <div>
-                  <p className="text-white font-medium">(870) 281-4894</p>
-                  <p className="text-gray-400 text-sm">
+                  <p className="text-white font-medium"> (702) 686-7820</p>
+                  {/* <p className="text-gray-400 text-sm">
                     24/7 Claims: (406) 998-6267
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className="flex items-start">
@@ -219,7 +228,7 @@ function Footer() {
                   <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
                 </svg>
                 <div>
-                  <p className="text-white">info@trueoakinsurance.com</p>
+                  <p className="text-white">info@zureinsurance.com</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -239,10 +248,12 @@ function Footer() {
                   <circle cx="12" cy="10" r="3"></circle>
                 </svg>
                 <div>
-                  <p className="text-white">3734 Crescent Lake Rd</p>
-                  <p className="text-white">Billings, MT 59101</p>
+                  <p className="text-white">Patrick V. McNamara Federal Building</p>
+                  <p className="text-white">477 Michigan Avenue</p>
+                  <p className="text-white">Detroit, MI 48226-2523</p>
+                  <p className="text-white">USA</p>
                   <a
-                    href="https://g.co/kgs/y6Kptwp"
+                    href="https://www.google.com/maps/place/Patrick+V.+McNamara+Federal+Building,+477+Michigan+Ave,+Detroit,+MI+48226,+USA/@42.3314684,-83.0558079,17z/data=!3m1!4b1!4m6!3m5!1s0x883b2d375ea4cb85:0xfc764ebf9941d970!8m2!3d42.3314645!4d-83.053233!16s%2Fg%2F11b62klchy?entry=ttu&g_ep=EgoyMDI1MDgwNS4wIKXMDSoASAFQAw%3D%3D"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-amber-400 hover:text-amber-300 text-sm transition-colors duration-200"
@@ -257,7 +268,7 @@ function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              <p>© 2025 TrueOak Insurance. All rights reserved.</p>
+              <p>© 2025 Zure Insurance. All rights reserved.</p>
             </div>
             <div className="flex items-center space-x-6 text-sm">
               <button className="text-gray-400 hover:text-white transition-colors duration-200">
