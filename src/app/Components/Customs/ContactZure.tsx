@@ -16,7 +16,7 @@ function ContactZure() {
             Contact<span className="text-emerald-600 block">Zure Insurance</span>
             </h1>
             <p className="text-xl text-white max-w-3xl mx-auto leading-relaxed">
-            We're here to help with all your insurance needs. Reach out to us today for personalized service and expert guidance.
+            We&apos;re here to help with all your insurance needs. Reach out to us today for personalized service and expert guidance.
             </p>
   </div>
 </section>

@@ -18,8 +18,8 @@ function BuildCareers(){
         <span className="text-emerald-400 block">TrueOak Insurance</span>
       </h1>
       <p className="text-xl text-amber-100 max-w-3xl mx-auto leading-relaxed">
-        Join a team that's passionate about providing true protection with strong roots in community service.
-        We're looking for dedicated professionals who share our commitment to excellence and genuine care.
+        Join a team that&apos;s passionate about providing true protection with strong roots in community service.
+        We&apos;re looking for dedicated professionals who share our commitment to excellence and genuine care.
       </p>
     </div>
     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -47,7 +47,7 @@ function BuildCareers(){
         </div>
         <h3 className="text-lg font-semibold mb-2">Strong Team</h3>
         <p className="text-amber-100 text-sm">
-          Work alongside talented professionals who support each other's growth and success.
+          Work alongside talented professionals who support each other&apos;s growth and success.
         </p>
       </div>
 

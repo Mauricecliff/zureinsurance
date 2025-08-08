@@ -10,7 +10,7 @@ function ReadyMake() {
             </h2>
             <p className="text-lg lg:text-xl text-amber-100 mb-8 max-w-2xl mx-auto">
             Join our mission to provide true protection with strong roots while
-            building a rewarding career that makes a meaningful impact in people's
+            building a rewarding career that makes a meaningful impact in people&apos;s
             lives.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

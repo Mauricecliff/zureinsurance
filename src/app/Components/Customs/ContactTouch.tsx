@@ -8,7 +8,7 @@ function ContactTouch() {
     <div className="text-center mb-16">
       <h2 className="text-4xl font-bold text-gray-900 mb-4">Get in Touch</h2>
       <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-        Choose the contact method that works best for you. We're committed to providing prompt, professional service through every channel.
+        Choose the contact method that works best for you. We&apos;re committed to providing prompt, professional service through every channel.
       </p>
     </div>
 

@@ -231,11 +231,11 @@ function ViewJobDetails({handleOpenViewJobDetails, handleApply}: CurrentOpenings
                 management.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                As an Underwriter at TrueOak Insurance, you'll play a crucial
+                As an Underwriter at Zure Insurance, you&apos;ll play a crucial
                 role in our ability to provide comprehensive coverage while
-                maintaining financial stability. You'll evaluate risks, make
+                maintaining financial stability. You&apos;ll evaluate risks, make
                 coverage decisions, and work closely with our sales team to find
-                creative solutions for our customers' insurance needs.
+                creative solutions for our customers&apos; insurance needs.
               </p>
             </div>
 
@@ -385,7 +385,7 @@ function ViewJobDetails({handleOpenViewJobDetails, handleApply}: CurrentOpenings
               </h3>
               <p className="text-gray-600 mb-6 text-sm">
                 Join our team and be part of a company that values strong roots
-                and true protection. We're committed to helping you grow your
+                and true protection. We&apos;re committed to helping you grow your
                 career while making a meaningful impact.
               </p>
               <button onClick={handleApply}  className="w-full bg-amber-900 hover:bg-amber-800 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200 shadow-lg hover:shadow-xl cursor-pointer">

@@ -25,7 +25,7 @@ function CurrentOpenings({handleOpenViewJobDetails}: CurrentOpeningsProps) {
             Current Openings
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We're looking for talented and passionate individuals to join our
+            We&apos;re looking for talented and passionate individuals to join our
             growing team.
           </p>
         </div>
@@ -145,7 +145,7 @@ function CurrentOpenings({handleOpenViewJobDetails}: CurrentOpeningsProps) {
                 </div>
                
                 <p className="text-gray-600 leading-relaxed mb-6">
-                    Join our dynamic sales team as a Senior Insurance Agent and help families and businesses find the perfect insurance solutions. You'll work with a diverse portfolio of clients, providing expert guidance and building lasting relationships while contributing to our mission of providing true protection with strong roots in community service.
+                    Join our dynamic sales team as a Senior Insurance Agent and help families and businesses find the perfect insurance solutions. You&apos;ll work with a diverse portfolio of clients, providing expert guidance and building lasting relationships while contributing to our mission of providing true protection with strong roots in community service.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                     <button onClick={handleOpenViewJobDetails} className="bg-amber-600 hover:bg-amber-500 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200 flex-1 sm:flex-none  cursor-pointer">
@@ -162,10 +162,10 @@ function CurrentOpenings({handleOpenViewJobDetails}: CurrentOpeningsProps) {
         <div className="text-center mt-12">
         <div className="bg-white rounded-xl shadow-lg p-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            Don't See the Perfect Fit?
+            Don&apos;t See the Perfect Fit?
             </h3>
             <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-            We're always looking for talented individuals to join our team. Submit a general application and we'll keep you in mind for future opportunities that match your skills and interests.
+            We&apos;re always looking for talented individuals to join our team. Submit a general application and we&apos;ll keep you in mind for future opportunities that match your skills and interests.
             </p>
             <button className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 cursor-pointer">
             Submit General Application

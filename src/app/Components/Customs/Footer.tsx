@@ -20,7 +20,7 @@ function Footer() {
               </div>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Protecting what matters most to you and your family for over 25
+              Protecting what matters most to you and your family for over 14
               years. Your trusted partner for comprehensive insurance solutions.
             </p>
             <div className="flex space-x-4">

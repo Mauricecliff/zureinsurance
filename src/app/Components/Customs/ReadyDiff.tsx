@@ -7,7 +7,7 @@ function ReadyDiff(){
     <div className="text-center mb-16">
       <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose TrueOak Insurance?</h2>
       <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-        We believe in investing in our people with strong roots in care and commitment. When you join TrueOak, you're not just getting a job—you're joining a family that provides true protection for your career growth.
+        We believe in investing in our people with strong roots in care and commitment. When you join Zure Insurance, you&apos;re not just getting a job—you&apos;re joining a family that provides true protection for your career growth.
       </p>
     </div>
 
@@ -123,7 +123,7 @@ function ReadyDiff(){
       <div className="relative p-12 text-center text-white">
         <h3 className="text-3xl font-bold mb-4">Ready to Make a Difference?</h3>
         <p className="text-xl text-amber-100 mb-8 max-w-2xl mx-auto">
-          Join our mission to provide true protection with strong roots while building a rewarding career that makes a meaningful impact in people's lives.
+          Join our mission to provide true protection with strong roots while building a rewarding career that makes a meaningful impact in people&apos;s lives.
         </p>
         <button className="bg-emerald-900 hover:bg-emerald-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200">
           View Open Positions

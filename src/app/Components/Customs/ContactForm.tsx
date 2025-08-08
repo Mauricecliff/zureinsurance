@@ -12,7 +12,7 @@ function ContactForm() {
         <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Send us a Message</h2>
             <p className="text-gray-600 mb-8">
-            Fill out the form below and we'll get back to you as soon as possible. For urgent matters, please call us directly.
+            Fill out the form below and we&apos;ll get back to you as soon as possible. For urgent matters, please call us directly.
             </p>
             <form className="space-y-6">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

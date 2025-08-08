@@ -128,7 +128,7 @@ function RootedValues(){
                     Always Protected
                     </h3>
                     <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                    24/7 claims support and customer service—true protection means we're always here for you.
+                    24/7 claims support and customer service—true protection means we&apos;re always here for you.
                     </p>
                 </div>
                 </div>

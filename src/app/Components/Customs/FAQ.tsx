@@ -9,7 +9,7 @@ function FAQ() {
             Frequently Asked Questions
         </h2>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Quick answers to common questions. Can't find what you're looking for? Contact us directly.
+            Quick answers to common questions. Can&apos;t find what you&apos;re looking for? Contact us directly.
         </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8">

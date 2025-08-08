@@ -9,7 +9,7 @@ function ChooseUs() {
                 Why Choose Zure Insurance?
             </h2>
             <p className="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
-                We're more than just an insurance provider - we're your trusted partner in true protection, rooted in strong values.
+                We&apos;re more than just an insurance provider - we&apos;re your trusted partner in true protection, rooted in strong values.
             </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
@@ -95,7 +95,7 @@ function ChooseUs() {
                 Claims Excellence
                 </h3>
                 <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
-                Fast, fair claims processing with 24/7 support when you need us most - true protection means we're always here.
+                Fast, fair claims processing with 24/7 support when you need us most - true protection means we&apos;re always here.
                 </p>
             </div>
 

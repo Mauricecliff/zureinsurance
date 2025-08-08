@@ -208,7 +208,7 @@ export default function ServicesLists() {
             </p>
             <div className="mb-8">
               <h4 className="text-base sm:text-lg font-semibold text-gray-900 mb-4">
-                What's Included:
+                What&apos;s Included:
               </h4>
               <ul className="space-y-3">
                 {plan.list.map((item, i) => (
