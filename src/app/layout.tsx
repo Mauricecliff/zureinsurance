@@ -27,7 +27,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Zure Insurance - Dependable Coverage.  Built on a foundation of honesty.",
   description:
-    "TrueOak Insurance provides true protection with strong roots in Montana, serving families and businesses nationwide. Experience genuine insurance solutions built on trust and integrity.",
+    "Built on a foundation of honesty, transparency, and commitment, ZureInsurance delivers smart protection with a human touch..",
   themeColor: "#065F46",
   openGraph: {
     type: "website",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
       "Zure Insurance provides true protection with strong roots in Montana, serving families and businesses nationwide.",
     images: [
       {
-        url: "zureinsurance/true-logo.jpg",
+        url: "zureinsurance/zure-logo.jpg",
         alt: "Zure Insurance",
       },
     ],
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title: "Zure Insurance - Strong Roots. True Protection.",
     description:
       "Zure Insurance provides true protection with strong roots in Montana, serving families and businesses nationwide.",
-    images: ["zureinsurance/true-logo.jpg"],
+    images: ["zureinsurance/zure-logo.jpg"],
   },
   icons: {
     icon: [
