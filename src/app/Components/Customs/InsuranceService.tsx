@@ -16,7 +16,7 @@ function InsuranceService() {
           Our Insurance<span className="text-amber-400 block">Services</span>
         </h1>
         <p className="text-lg lg:text-xl text-emerald-100 max-w-3xl mx-auto leading-relaxed">
-            At ZureInsurance, we offer more than just policies — we deliver peace of mind. Our insurance solutions are thoughtfully designed to protect the people, businesses, and dreams you care about most. With us, you’re not just insured — you’re truly covered.
+            At ZureInsurance, we offer more than just policies we deliver peace of mind. Our insurance solutions are thoughtfully designed to protect the people, businesses, and dreams you care about most. With us, you&apos;re not just insured you&apos;re truly covered.
         </p>
       </div>
     </section>

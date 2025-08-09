@@ -8,7 +8,7 @@ function RootedValues(){
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-12 lg:mb-16">
                 <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                    Our Deep-Rooted Values
+                    Our Deep Rooted Values
                 </h2>
                 <p className="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
                     These values are the strong roots that anchor everything we do and shape how we provide true protection every day.
@@ -36,7 +36,7 @@ function RootedValues(){
                     </svg>
                     </div>
                     <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3 lg:mb-4">
-                    Deep-Rooted Trust
+                    Deep Rooted Trust
                     </h3>
                     <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
                     We build lasting relationships based on honesty, transparency, and reliability in everything we do.
@@ -68,7 +68,7 @@ function RootedValues(){
                     Trustworthy Protection
                     </h3>
                     <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                    We may be a startup, but our dedication is tested daily and proven through real-time support, responsive claims, and client-centered policies that are built to last. You’re not just covered — you’re supported.
+                    We may be a startup, but our dedication is tested daily and proven through real time support, responsive claims, and client-centered policies that are built to last. You&apos;re not just covered you&apos;re supported.
                     </p>
                 </div>
 
@@ -96,10 +96,10 @@ function RootedValues(){
                     </svg>
                     </div>
                     <h3 className="text-lg lg:text-xl font-semibold text-gray-900 mb-3 lg:mb-4">
-                        People-First Service
+                        People First Service
                     </h3>
                     <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                        We’re not a faceless corporation — we’re a community-minded team focused on building lasting relationships. Every policy we offer is tailored with care, because we know our customers by name, not by number.
+                        Wer&apos;e not a faceless corporation we&apos;re a community minded team focused on building lasting relationships. Every policy we offer is tailored with care, because we know our customers by name, not by number.
                     </p>
                 </div>
 
@@ -128,7 +128,7 @@ function RootedValues(){
                     Always Protected
                     </h3>
                     <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-                    24/7 claims support and customer service—true protection means we&apos;re always here for you.
+                    24/7 claims support and customer service true protection means we&apos;re always here for you.
                     </p>
                 </div>
                 </div>

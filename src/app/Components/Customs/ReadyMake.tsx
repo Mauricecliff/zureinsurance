@@ -14,12 +14,12 @@ function ReadyMake() {
             lives.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-emerald-900 hover:bg-emerald-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
+            {/* <button className="bg-emerald-900 hover:bg-emerald-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 shadow-lg hover:shadow-xl cursor-pointer">
                 Submit Your Resume
             </button>
-            <button className="border-2 border-white text-white hover:bg-white hover:text-amber-600 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 shadow-lg hover:shadow-xl">
+            <button className="border-2 border-white text-white hover:bg-white hover:text-amber-600 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 shadow-lg hover:shadow-xl cursor-pointer">
                 Employment Verification
-            </button>
+            </button> */}
             </div>
         </div>
     </section>

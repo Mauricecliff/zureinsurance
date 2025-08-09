@@ -37,7 +37,7 @@ export const metadata: Metadata = {
       "Zure Insurance provides true protection with strong roots in Montana, serving families and businesses nationwide.",
     images: [
       {
-        url: "zureinsurance/zure-logo.jpg",
+        url: "zureinsurance/zure-logo.png",
         alt: "Zure Insurance",
       },
     ],
@@ -47,14 +47,14 @@ export const metadata: Metadata = {
     title: "Zure Insurance - Strong Roots. True Protection.",
     description:
       "Zure Insurance provides true protection with strong roots in Montana, serving families and businesses nationwide.",
-    images: ["zureinsurance/zure-logo.jpg"],
+    images: ["zureinsurance/zure-logo.png"],
   },
   icons: {
     icon: [
-      { url: "zureinsurance/zure-logo.jpg", sizes: "16x16", type: "image/png" },
-      { url: "zureinsurance/zure-logo.jpg", sizes: "32x32", type: "image/png" },
+      { url: "zureinsurance/zure-logo.png", sizes: "16x16", type: "image/png" },
+      { url: "zureinsurance/zure-logo.png", sizes: "32x32", type: "image/png" },
     ],
-    apple: "zureinsurance/zure-logo.jpg",
+    apple: "zureinsurance/zure-logo.png",
   },
   manifest: "/site.webmanifest",
 };
@@ -68,12 +68,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <link
           rel="icon"
           type="image/x-icon"
-          href="zureinsurance/zure-logo.jpg"
+          href="zureinsurance/zure-logo.png"
         />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="zureinsurance/zure-logo.jpg"
+          href="zureinsurance/zure-logo.png"
         />
         {/* <link
           rel="stylesheet"

@@ -10,7 +10,7 @@ function StrongRoots() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800&amp;h=600&amp;fit=crop"
+                src="https://plus.unsplash.com/premium_photo-1661378581943-c541deb21116?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Professional insurance team"
                 className="w-full h-80 sm:h-96 object-cover"
               />
@@ -32,24 +32,24 @@ function StrongRoots() {
               Strong Roots. True Protection.
             </h2>
             <p className="text-base lg:text-lg text-gray-600 mb-6 leading-relaxed">
-              Founded in 2011 in the heart of Grand Rapids, Michigan, ZureInsurance began with one mission: to make reliable, affordable insurance accessible to everyone — no matter their background or budget. From humble beginnings, we’ve grown into a modern provider trusted by individuals, families, and small businesses across the country.
+              Founded in 2011 in the heart of Grand Rapids, Michigan, ZureInsurance began with one mission: to make reliable, affordable insurance accessible to everyone no matter their background or budget. From humble beginnings, we&apos;ve grown into a modern provider trusted by individuals, families, and small businesses across the country.
             </p>
             <p className="text-base lg:text-lg text-gray-600 mb-8 leading-relaxed">
               Our foundation is grounded in three simple but powerful values: transparency, care, and protection that works when you need it most.
-              Just like the name “Zure” represents assurance and peace of mind, we’ve remained true to our roots — serving with integrity, growing through trust, and staying committed to protecting what you’ve worked so hard to build.
+              Just like the name “Zure” represents assurance and peace of mind, we&apos;ve remained true to our roots serving with integrity, growing through trust, and staying committed to protecting what you&apos;ve worked so hard to build.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-8">
               {[
                 {
-                  title: "People-First Service",
-                  desc: "We’re not a faceless corporation — we’re a community-minded team focused on building lasting relationships. Every policy we offer is tailored with care, because we know our customers by name, not by number.",
+                  title: "People First Service",
+                  desc: `We're not a faceless corporation we&apos;re a community-minded team focused on building lasting relationships. Every policy we offer is tailored with care, because we know our customers by name, not by number.`,
                   icon: (
                     <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
                   ),
                 },
                 {
                   title: "Trustworthy Protection",
-                  desc: "WWe may be a startup, but our dedication is tested daily and proven through real-time support, responsive claims, and client-centered policies that are built to last. You’re not just covered — you’re supported.e deliver genuine excellence in every interaction, from customer service to claims.",
+                  desc: "WWe may be a startup, but our dedication is tested daily and proven through real time support, responsive claims, and client centered policies that are built to last. You’re not just covered you’re supported. Deliver genuine excellence in every interaction, from customer service to claims.",
                   icon: (
                     <>
                       <circle cx="12" cy="8" r="6"></circle>

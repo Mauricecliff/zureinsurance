@@ -49,8 +49,7 @@ function HeroHome() {
               </button>
               <button className="border-2 border-white text-white hover:bg-white hover:text-emerald-900 px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-base sm:text-lg transition-all duration-200 hover:scale-105 cursor-pointer">
                 <Link href="/careers" >
-                                Join Our Team
-
+                    Join Our Team
                 </Link>
               </button>
             </div>
@@ -75,10 +74,10 @@ function HeroHome() {
                       <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
               </svg>
               <h3 className="text-lg sm:text-xl font-semibold mb-2">
-                People-First Service
+                People First Service
               </h3>
               <p className="text-emerald-100 text-sm sm:text-base">
-                We’re not a faceless corporation — we’re a community-minded team focused on building lasting relationships. Every policy we offer is tailored with care, because we know our customers by name, not by number.
+                We&apos;re not a faceless corporation we&apos;re a community minded team focused on building lasting relationships. Every policy we offer is tailored with care, because we know our customers by name, not by number.
               </p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 sm:p-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
@@ -101,7 +100,7 @@ function HeroHome() {
                 Trustworthy Protection
               </h3>
               <p className="text-emerald-100 text-sm sm:text-base">
-                We may be a startup, but our dedication is tested daily and proven through real-time support, responsive claims, and client-centered policies that are built to last. You’re not just covered — you’re supported.
+                We may be a startup, but our dedication is tested daily and proven through real time support, responsive claims, and client-centered policies that are built to last. You&apos;re not just covered you&apos;re supported.
               </p>
             </div>
             {/* <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 sm:p-6 border border-white/20 hover:bg-white/15 transition-all duration-300">

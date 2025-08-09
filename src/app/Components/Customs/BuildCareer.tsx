@@ -15,7 +15,7 @@ function BuildCareers(){
     <div className="text-center mb-16">
       <h1 className="text-5xl font-bold mb-6">
         Build Your Career at
-        <span className="text-emerald-400 block">TrueOak Insurance</span>
+        <span className="text-emerald-400 block">Zure Insurance</span>
       </h1>
       <p className="text-xl text-amber-100 max-w-3xl mx-auto leading-relaxed">
         Join a team that&apos;s passionate about providing true protection with strong roots in community service.

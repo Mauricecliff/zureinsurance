@@ -19,7 +19,7 @@ function FAQ() {
                 What makes ZureInsurance different from other insurance companies?
             </h3>
             <p className="text-gray-600">
-                We’re a startup with a fresh approach — focused on clarity, affordability, and real support. Our plans are easy to understand, our team is responsive, and our goal is to make insurance work for you — not the other way around.
+                We&apos;re a startup with a fresh approach focused on clarity, affordability, and real support. Our plans are easy to understand, our team is responsive, and our goal is to make insurance work for you not the other way around.
             </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -27,7 +27,7 @@ function FAQ() {
                 Do I need to have a high income to qualify for your insurance plans?
             </h3>
             <p className="text-gray-600">
-                Not at all. ZureInsurance offers flexible and affordable options for individuals, families, and businesses of all income levels. We’ll help you find a plan that fits your budget.
+                Not at all. ZureInsurance offers flexible and affordable options for individuals, families, and businesses of all income levels. We&apos;ll help you find a plan that fits your budget.
             </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -62,12 +62,12 @@ function FAQ() {
             </h3>
             <p className="text-gray-600">
                We currently provide:
-                    •	Health Insurance
-                    •	Life Insurance
-                    •	Auto Insurance
-                    •	Home Insurance
-                    •	Travel Insurance
-                    •	Business Insurance
+                    Health Insurance,
+                    Life Insurance,
+                    Auto Insurance,
+                    Home Insurance,
+                    Travel Insurance,
+                    Business Insurance.
 
                 More specialized coverage is coming soon!
             </p>
@@ -85,7 +85,7 @@ function FAQ() {
                Can I cancel or change my policy later?
             </h3>
             <p className="text-gray-600">
-              Absolutely. Life changes — and so should your coverage. You can upgrade, downgrade, or cancel your plan anytime from your account dashboard or with the help of our support team.
+              Absolutely. Life changes and so should your coverage. You can upgrade, downgrade, or cancel your plan anytime from your account dashboard or with the help of our support team.
             </p>
             </div>
            

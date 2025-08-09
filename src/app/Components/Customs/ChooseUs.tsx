@@ -9,7 +9,7 @@ function ChooseUs() {
                 Why Choose Zure Insurance?
             </h2>
             <p className="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
-                We&apos;re more than just an insurance provider - we&apos;re your trusted partner in true protection, rooted in strong values.
+                We&apos;re more than just an insurance provider we&apos;re your trusted partner in true protection, rooted in strong values.
             </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
@@ -64,7 +64,7 @@ function ChooseUs() {
                 </svg>
                 </div>
                 <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-4">
-                Deep-Rooted Personal Service
+                Deep Rooted Personal Service
                 </h3>
                 <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
                 Work with dedicated agents who understand your unique needs and provide personalized solutions rooted in genuine care.
@@ -95,7 +95,7 @@ function ChooseUs() {
                 Claims Excellence
                 </h3>
                 <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
-                Fast, fair claims processing with 24/7 support when you need us most - true protection means we&apos;re always here.
+                Fast, fair claims processing with 24/7 support when you need us most true protection means we&apos;re always here.
                 </p>
             </div>
 

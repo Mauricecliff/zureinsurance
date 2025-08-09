@@ -111,7 +111,12 @@ function Footer() {
             <ul className="space-y-3">
               <li>
                 <button className="text-gray-300 hover:text-white transition-colors duration-200">
-                  <Link href="/service">Home Insurance</Link>
+                  <Link href="/service">Health Insurance</Link>
+                </button>
+              </li>
+              <li>
+                <button className="text-gray-300 hover:text-white transition-colors duration-200">
+                  <Link href="/service">Life Insurance</Link>
                 </button>
               </li>
               <li>
@@ -121,22 +126,17 @@ function Footer() {
               </li>
               <li>
                 <button className="text-gray-300 hover:text-white transition-colors duration-200">
-                  <Link href="/service">Business Insurance</Link>
+                  <Link href="/service"> Home Insurance</Link>
                 </button>
               </li>
               <li>
                 <button className="text-gray-300 hover:text-white transition-colors duration-200">
-                  <Link href="/service"> Life Insurance</Link>
+                  <Link href="/service">Travel Insurance</Link>
                 </button>
               </li>
               <li>
                 <button className="text-gray-300 hover:text-white transition-colors duration-200">
-                  <Link href="/service">Commercial Insurance</Link>
-                </button>
-              </li>
-              <li>
-                <button className="text-gray-300 hover:text-white transition-colors duration-200">
-                  <Link href="/service">Group Benefits</Link>
+                  <Link href="/service">Business Benefits</Link>
                 </button>
               </li>
             </ul>
@@ -205,7 +205,10 @@ function Footer() {
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                 </svg>
                 <div>
-                  <p className="text-white font-medium"> (702) 686-7820</p>
+                  <a href="tel:7026867820">
+                     <p className="text-white font-medium"> (702) 686-7820</p>
+                  </a>
+                  
                   {/* <p className="text-gray-400 text-sm">
                     24/7 Claims: (406) 998-6267
                   </p> */}
@@ -228,7 +231,9 @@ function Footer() {
                   <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
                 </svg>
                 <div>
-                  <p className="text-white">info@zureinsurance.com</p>
+                  <a href="mailto:info@trueoakinsurance.com">
+                      <p className="text-white">info@zureinsurance.com</p>
+                  </a>
                 </div>
               </div>
               <div className="flex items-start">
@@ -283,8 +288,10 @@ function Footer() {
               >
                 Accessibility
               </a>
-              <button className="hidden lg:flex items-center text-gray-400 hover:text-amber-400 transition-colors duration-200">
-                Employee Portal
+              <button className="hidden lg:flex items-center text-gray-400 hover:text-amber-400 transition-colors duration-200 cursor-pointer">
+                <Link href="/employee-portal">
+                    Employee Portal
+                </Link>
               </button>
             </div>
           </div>

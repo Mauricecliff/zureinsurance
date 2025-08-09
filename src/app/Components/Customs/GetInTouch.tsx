@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 function GetInTouch() {
   return (
     <section className="py-16 lg:py-20 bg-white">
@@ -18,7 +20,7 @@ function GetInTouch() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-lg mb-8">
               <img
-                src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800&amp;h=400&amp;fit=crop"
+                src="https://plus.unsplash.com/premium_photo-1661301053519-880c720aadcd?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Customer service representative"
                 className="w-full h-48 sm:h-64 object-cover"
               />
@@ -259,8 +261,10 @@ function GetInTouch() {
                 Need immediate assistance or want to explore all our contact
                 options?
               </p>
-              <button className="text-amber-600 hover:text-amber-800 font-medium transition-colors duration-200">
-                Visit Our Contact Page →
+              <button className="text-amber-600 hover:text-amber-800 font-medium transition-colors duration-200 cursor-pointer">
+                <Link href="/contact">
+                  Visit Our Contact Page →
+                </Link>
               </button>
             </div>
           </div>

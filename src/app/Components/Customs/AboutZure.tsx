@@ -8,7 +8,7 @@ function AboutZure(){
             <div className="absolute inset-0">
                 <img
                 src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1920&amp;h=1080&amp;fit=crop"
-                alt="TrueOak Insurance team"
+                alt="Zure Insurance team"
                 className="w-full h-full object-cover opacity-20"
                 />
                 <div className="absolute inset-0 bg-amber-600 opacity-80"></div>
@@ -22,7 +22,7 @@ function AboutZure(){
                     <p className="text-lg lg:text-xl text-white mb-8 leading-relaxed">
                     Smart Coverage. Real Support.
                     Rooted in Integrity, Growing with You
-                    Founded by a team of insurance insiders who believe in transparency and compassion, ZureInsurance is built from the ground up to serve individuals, families, and small businesses with affordable, easy-to-understand policies. Though we’re still early in our journey, our approach is steadfast: honest guidance, community-first values, and coverage that adapts with you.
+                    Founded by a team of insurance insiders who believe in transparency and compassion, Zure Insurance is built from the ground up to serve individuals, families, and small businesses with affordable, easy to understand policies. Though we&apos;re still early in our journey, our approach is steadfast: honest guidance, community first values, and coverage that adapts with you.
                     </p>
                     <div className="grid grid-cols-2 gap-6">
                     <div className="text-center">
@@ -37,8 +37,8 @@ function AboutZure(){
                 </div>
                 <div className="relative">
                     <img
-                    src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600&amp;h=400&amp;fit=crop"
-                    alt="TrueOak Insurance office"
+                    src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=884&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Zure Insurance office"
                     className="rounded-2xl shadow-2xl w-full"
                     />
                 </div>

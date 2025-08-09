@@ -13,19 +13,13 @@ function OurStory(){
                     Rooted in Integrity, Growing with You.
         </h2>
         <p className="text-base lg:text-lg text-gray-600 mb-6 leading-relaxed">
-          Much like our namesake “Zure” — suggesting trust and assurance — our philosophy is simple: make insurance accessible, human, and effective.
-
-            ⸻
-
-            Our Commitment
-                •	Authentic Support – We don’t sell policies, we build relationships.
-                •	Clear Communication – No jargon. Just clear, direct information.
-                •	Flexible Plans – Coverage that evolves as your needs change.
-                •	Fast, Fair Claims – We prioritize ease, speed, and fairness in every case.
-
-            ⸻
-
-            What Makes ZureInsurance Different
+          Much like our name sake “Zure” suggesting trust and assurance  our philosophy is simple: make insurance accessible, human, and effective.
+            Our Commitment.
+                	Authentic Support  We don&apos;t sell policies, we build relationships.
+                  Clear Communication No jargon. Just clear, direct information.
+                	Flexible Plans Coverage that evolves as your needs change.
+                  Fast, Fair Claims We prioritize ease, speed, and fairness in every case.
+                 What Makes Zure Insurance Different.
         </p>
     
         <div className="flex items-center space-x-4">
@@ -52,8 +46,8 @@ function OurStory(){
       </div>
       <div className="relative">
         <img
-          src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600&amp;h=500&amp;fit=crop"
-          alt="TrueOak Insurance history"
+          src="https://images.unsplash.com/photo-1713946598491-4f85decbeaaf?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Zure Insurance history"
           className="rounded-2xl shadow-xl w-full"
         />
         <div className="absolute -bottom-4 lg:-bottom-6 -left-4 lg:-left-6 bg-amber-600 text-white p-4 lg:p-6 rounded-xl">

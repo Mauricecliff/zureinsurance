@@ -70,7 +70,7 @@ function ApplicationProcess() {
               <div className="text-white">
                 <h3 className="text-3xl font-bold mb-6">Ready to Apply?</h3>
                 <p className="text-lg text-amber-100 mb-8 leading-relaxed">
-                  Take the next step toward an exciting future at Zure Insurance. We&apos;re building a team where inclusion, impact, and innovation thrive — grounded in our values of protection and trust.
+                  Take the next step toward an exciting future at Zure Insurance. We&apos;re building a team where inclusion, impact, and innovation thrive grounded in our values of protection and trust.
                 </p>
 
                 <div className="space-y-4">
@@ -121,10 +121,15 @@ function ApplicationProcess() {
                   <p className="text-sm text-gray-500 mb-4">Questions about the application process?</p>
                   <div className="space-y-2 text-sm">
                     <p className="text-gray-600">
-                      <strong>Email:</strong> info@zureinsurance.com
+                        <a href="mailto:info@trueoakinsurance.com">
+                           <strong>Email:</strong> info@zureinsurance.com
+                        </a>
                     </p>
                     <p className="text-gray-600">
-                      <strong>Phone:</strong> (702) 686-7820 ext. 100
+                           <a href="tel:7026867820">
+                              <strong>Phone:</strong> (702) 686-7820 
+
+                           </a>
                     </p>
                   </div>
                 </div>

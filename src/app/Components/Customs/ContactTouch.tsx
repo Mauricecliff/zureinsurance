@@ -22,8 +22,10 @@ function ContactTouch() {
         </div>
         <h3 className="text-xl font-semibold text-gray-900 mb-4">Call Us</h3>
         <div className="space-y-2 mb-4">
-          <p className="text-lg font-medium text-amber-600">(870) 281-4894</p>
-          <p className="text-gray-600">Claims: (406) 998-6267</p>
+          <a href="tel:7026867820">
+          <p className="text-lg font-medium text-amber-600">(702) 686-7820</p>
+          </a>
+          {/* <p className="text-gray-600">Claims: (406) 998-6267</p> */}
         </div>
         <p className="text-gray-600 mb-4">Speak directly with our experienced agents</p>
         <div className="flex items-center justify-center text-sm text-gray-500">

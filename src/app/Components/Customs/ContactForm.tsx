@@ -87,7 +87,7 @@ function ContactForm() {
             </div>
             <button
                 type="submit"
-                className="w-full bg-amber-600 hover:bg-amber-500 disabled:bg-gray-400 text-white px-6 py-4 rounded-lg font-semibold transition-colors duration-200 flex items-center justify-center"
+                className="w-full bg-amber-600 hover:bg-amber-500 disabled:bg-gray-400 text-white px-6 py-4 rounded-lg font-semibold transition-colors duration-200 flex items-center justify-center cursor-pointer"
             >
                 Send Message
                 <svg
@@ -113,8 +113,8 @@ function ContactForm() {
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Visit Our Office</h2>
             <div className="relative rounded-2xl overflow-hidden shadow-lg mb-8">
             <img
-                src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600&amp;h=400&amp;fit=crop"
-                alt="TrueOak Insurance office"
+                src="https://plus.unsplash.com/premium_photo-1683880731495-ae0f4bf18c7e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Zure Insurance office"
                 className="w-full h-64 object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-amber-600/70 to-transparent"></div>

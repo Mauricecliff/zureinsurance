@@ -28,8 +28,8 @@ function Mission(){
         </svg>
         <h2 className="text-2xl lg:text-3xl font-bold mb-6">Our Mission</h2>
         <p className="text-lg lg:text-xl text-white leading-relaxed">
-          To make insurance straightforward and supportive—right from day one. We want every person we work with to feel understood, valued, and confidently protected.”
-            We’re not here to just grow fast—we’re here to grow well, maintaining trust as our foundation.
+          To make insurance straightforward and supportive right from day one. We want every person we work with to feel understood, valued, and confidently protected.”
+            We&apos;re not here to just grow fast we&apos;re here to grow well, maintaining trust as our foundation.
         </p>
       </div>
 
@@ -55,7 +55,7 @@ function Mission(){
         <h2 className="text-2xl lg:text-3xl font-bold mb-6">Our Vision</h2>
         <p className="text-lg lg:text-xl text-white leading-relaxed">
         Ready to Protect What Matters?    
-        Whether you’re safeguarding your first home, building a startup, or ensuring peace of mind for your family—ZureInsurance offers clear, accessible solutions crafted for you. Join us, and let’s build real coverage you can trust
+        Whether you&apos;re safeguarding your first home, building a startup, or ensuring peace of mind for your family ZureInsurance offers clear, accessible solutions crafted for you. Join us, and let&apos;s build real coverage you can trust
         </p>
       </div>
     </div>

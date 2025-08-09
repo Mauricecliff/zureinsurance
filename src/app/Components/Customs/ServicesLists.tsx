@@ -7,7 +7,7 @@ import Link from "next/link";
 const protectionPlans = [
                 {
                 title: "Home Insurance",
-                image: "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+                image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=773&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 icon: (
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -25,13 +25,6 @@ const protectionPlans = [
                 ),
                 desc: "Affordable Health Plans for You and Your Family",
                 list: [
-                    // "Why Health Insurance Matters",
-                    // "Individual vs. Family Plans",
-                    // "HMO vs. PPO Options",
-                    // "Coverage for Prescriptions, Doctor Visits, Emergencies",
-                    // "Preventive Care and Wellness Benefits",
-                    // "How to File a Claim",
-                    // "FAQ: Pre-existing conditions, waiting periods"
                      "What Home Insurance Covers: Structure, Belongings, Liability",
                     "Add-Ons: Flood, Earthquake, Valuables",
                     "Homeowners vs. Renters Insurance",
@@ -43,7 +36,7 @@ const protectionPlans = [
                 },
                 {
                 title: "Auto Insurance",
-                image: "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+                image: "https://images.unsplash.com/photo-1567113463730-77e3df20363c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 icon: (
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +54,7 @@ const protectionPlans = [
                     <circle cx="17" cy="17" r="2" />
                     </svg>
                 ),
-                desc: "Drive Protected – Wherever the Road Takes You.",
+                desc: "Drive Protected Wherever the Road Takes You.",
                 list: [
                 
                      "Types of Coverage: Liability, Collision, Comprehensive",
@@ -76,7 +69,7 @@ const protectionPlans = [
                 },
                 {
                 title: "Business Insurance",
-                image: "https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+                image: "https://plus.unsplash.com/premium_photo-1661772661721-b16346fe5b0f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 icon: (
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -113,11 +106,11 @@ const protectionPlans = [
                 },
                  {
                 title: "Life Insurance",
-                image: "https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+                image: "https://plus.unsplash.com/premium_photo-1723507291530-47c2f7aa9197?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 icon: (
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-heart h-5 w-5 sm:h-6 sm:w-6 text-white"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
                 ),
-                desc: "Secure Their Future – Even When You’re Not Around.",
+                desc: "Secure Their Future Even When You re Not Around.",
                 list: [
                      "Term Life vs. Whole Life Insurance",
                      "Who Needs Life Insurance",
@@ -129,8 +122,8 @@ const protectionPlans = [
                 CTA: 'Calculate Your Life Insurance Needs'
                 },
                  {
-                title: "Commercial",
-                image: "https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=400&amp;h=300&amp;fit=crop",
+                title: "Commercial Insurance",
+                image: "https://plus.unsplash.com/premium_photo-1661301190249-6cc8685dbc6d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 icon: (
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-briefcase h-5 w-5 sm:h-6 sm:w-6 text-white"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"></rect>
                     <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
@@ -146,23 +139,26 @@ const protectionPlans = [
                 CTA: 'Compare Plans Now'
                 },
                   {
-                title: "Group Benefits",
-                image: "https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+
+                title: "Travel Insurance",
+                image: "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 icon: (
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-users h-5 w-5 sm:h-6 sm:w-6 text-white"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
                 ),
-                desc: "Employee benefit packages that help you attract and retain top talent with true protection.",
+                desc: "Worry Less, Travel More.",
                 list: [
+                    "Trip Cancellation & Interruption",
+                    "Medical Emergencies Abroad",
+                    "Lost Baggage & Delays",
+                    "International Coverage Scope",
+                    "Business & Student Travel Coverage"
 
-                   "Health insurance", 
-                    "Dental &amp; vision",
-                    "Disability insurance",
-                    "Retirement plans",
                 ],
-                CTA: 'Compare Plans Now'
+                CTA: 'Insure Your Next Trip in Minutes'
                 },
                 // Add more entries below for Life Insurance, Commercial, Group Benefits
             ]
+
 
 export default function ServicesLists() {
   return (

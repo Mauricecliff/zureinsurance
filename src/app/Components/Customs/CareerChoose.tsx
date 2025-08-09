@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 
 
 
@@ -9,10 +11,10 @@ function CareerChoose(){
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 lg:mb-16">
                 <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                    Why Choose Zure Insurance?
+                    Why Talented Professionals Choose ZureInsurance?
                 </h2>
                 <p className="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
-                    We&apos;re more than just an insurance provider - we&apos;re your trusted partner in true protection, rooted in strong values.
+                    At ZureInsurance, we don&apos;t just offer jobs we build careers. Here&apos;s why skilled candidates choose to grow with us.
                 </p>
         </div>
 
@@ -27,14 +29,14 @@ function CareerChoose(){
                 <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
                 </>
             ),
-            desc: "Industry-leading salaries with performance-based bonuses and commission opportunities that reward excellence.",
+            desc: "We believe great talent deserves great pay. Our compensation packages are structured to reflect your value, experience, and commitment.",
             },
             {
             title: "Comprehensive Benefits",
             icon: (
                 <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
             ),
-            desc: "Receive industry-competitive salaries, performance-driven bonuses, and growth-based incentives that recognize your contributions and excellence.",
+            desc: "From health coverage to wellness programs and paid time off, our benefits are designed to support you and your family’s well-being physically, mentally, and financially.",
             },
             {
             title: "Professional Development",
@@ -45,20 +47,20 @@ function CareerChoose(){
                 <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
                 </>
             ),
-            desc: "Access continuous learning through sponsored certifications, leadership workshops, and career advancement programs rooted in excellence.",
+            desc: "We invest in you. Through training, upskilling programs, and mentorship, we help you grow personally and professionally no matter your role.",
             },
             {
-            title: "Flexible Schedule",
+            title: "Flexible Work Schedules",
             icon: (
                 <>
                 <circle cx="12" cy="12" r="10" />
                 <polyline points="12 6 12 12 16 14" />
                 </>
             ),
-            desc: "Achieve work-life balance with flexible hours, remote work options, and generous paid time off (PTO) — because we respect your time.",
+            desc: "Whether you’re a parent, student, or someone who values work life balance, we offer flexible and remote options to fit your lifestyle.",
             },
             {
-            title: "Great Work Environment",
+            title: "Supportive Work Environment",
             icon: (
                 <>
                 <path d="M17 8h1a4 4 0 1 1 0 8h-1" />
@@ -68,7 +70,7 @@ function CareerChoose(){
                 <line x1="14" x2="14" y1="2" y2="4" />
                 </>
             ),
-            desc: "Work in a collaborative, inclusive, and modern workspace with a team culture that values communication, support, and innovation.",
+            desc: "We foster a positive, inclusive, and collaborative culture where every team member feels respected and valued.",
             },
             {
             title: "Additional Perks",
@@ -80,7 +82,7 @@ function CareerChoose(){
                 <path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5" />
                 </>
             ),
-            desc: "From wellness initiatives and staff discounts to engaging company events and referral bonuses, we show appreciation in meaningful ways.",
+            desc: "Enjoy performance bonuses, recognition programs, paid internet (for remote roles), and access to exclusive employee resources and tools that make your job easier and more rewarding.",
             },
         ].map((card, i) => (
             <div
@@ -127,7 +129,9 @@ function CareerChoose(){
             Join our mission to provide true protection with strong roots while building a rewarding career that makes a meaningful impact in people&apos;s lives.
             </p>
             <button className="bg-emerald-900 hover:bg-emerald-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200">
-            View Open Positions
+                <Link href="/careers">
+                    View Open Positions
+                </Link>
             </button>
         </div>
         </div>
